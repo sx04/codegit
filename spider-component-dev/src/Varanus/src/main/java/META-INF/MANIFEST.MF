@@ -1,0 +1,64 @@
+Manifest-Version: 1.0
+Main-Class: com.cetcbigdata.varanus.Varanus
+Class-Path: okhttp-3.10.0.jar okio-1.14.0.jar javax.mail-1.5.6.jar tomca
+ t-embed-el-8.5.6.jar spring-boot-autoconfigure-1.4.3.RELEASE.jar spring
+ -context-4.3.5.RELEASE.jar spring-boot-starter-thymeleaf-1.4.3.RELEASE.
+ jar guava-20.0.jar jackson-databind-2.8.5.jar spring-aspects-4.3.5.RELE
+ ASE.jar jackson-xml-databind-0.6.2.jar selenium-api-2.53.1.jar xalan-2.
+ 7.2.jar htmlunit-2.27.jar assertj-core-2.5.0.jar jna-4.2.2.jar jackson-
+ core-asl-1.9.2.jar commons-pool2-2.5.0.jar springfox-core-2.0.1.jar net
+ ty-3.5.7.Final.jar commons-net-1.4.1.jar spring-plugin-core-1.2.0.RELEA
+ SE.jar commons-exec-1.3.jar spring-web-4.3.5.RELEASE.jar selenium-leg-r
+ c-2.53.1.jar spring-boot-starter-test-1.4.3.RELEASE.jar jackson-xc-1.9.
+ 2.jar spring-boot-test-autoconfigure-1.4.3.RELEASE.jar jsoup-1.8.3.jar 
+ slf4j-api-1.7.22.jar jna-platform-4.1.0.jar hibernate-commons-annotatio
+ ns-5.0.1.Final.jar htmlunit-core-js-2.27.jar json-smart-2.2.1.jar selen
+ ium-safari-driver-2.53.1.jar antlr-2.7.7.jar hibernate-jpa-2.1-api-1.0.
+ 0.Final.jar ognl-3.0.8.jar tomcat-juli-8.5.6.jar hamcrest-core-1.3.jar 
+ oro-2.0.8.jar accessors-smart-1.1.jar spring-plugin-metadata-1.2.0.RELE
+ ASE.jar websocket-api-9.3.14.v20161028.jar mysql-connector-java-5.1.38.
+ jar stax2-api-3.1.0.jar neko-htmlunit-2.27.jar spring-beans-4.3.5.RELEA
+ SE.jar springfox-swagger2-2.0.1.jar spring-data-jpa-1.10.6.RELEASE.jar 
+ selenium-firefox-driver-2.53.1.jar springfox-schema-2.0.1.jar swagger-m
+ odels-1.5.3-M1.jar thymeleaf-layout-dialect-1.4.0.jar spring-aop-4.3.5.
+ RELEASE.jar joda-time-2.9.6.jar spring-boot-starter-jdbc-1.4.3.RELEASE.
+ jar spring-boot-starter-web-1.4.3.RELEASE.jar springfox-spring-web-2.0.
+ 1.jar commons-io-2.5.jar fastjson-1.2.47.jar htmlunit-driver-2.21.jar h
+ amcrest-library-1.3.jar thymeleaf-2.1.5.RELEASE.jar selenium-ie-driver-
+ 2.53.1.jar druid-1.1.10.jar spring-boot-1.4.3.RELEASE.jar spring-boot-s
+ tarter-1.4.3.RELEASE.jar mockito-core-1.10.19.jar jcl-over-slf4j-1.7.22
+ .jar objenesis-2.1.jar selenium-chrome-driver-2.53.1.jar spring-data-re
+ dis-1.7.6.RELEASE.jar cglib-nodep-2.1_3.jar jul-to-slf4j-1.7.22.jar spr
+ ing-test-4.3.5.RELEASE.jar spring-boot-starter-logging-1.4.3.RELEASE.ja
+ r jackson-core-2.8.5.jar selenium-java-2.53.1.jar jedis-2.8.2.jar jetty
+ -util-9.3.14.v20161028.jar spring-boot-starter-tomcat-1.4.3.RELEASE.jar
+  jetty-io-9.3.14.v20161028.jar spring-boot-starter-aop-1.4.3.RELEASE.ja
+ r swagger-bootstrap-ui-1.7.3.jar commons-collections-3.2.2.jar tomcat-e
+ mbed-websocket-8.5.6.jar cssparser-0.9.23.jar pinyin4j-2.5.0.jar serial
+ izer-2.7.2.jar mapstruct-1.0.0.Beta4.jar spring-webmvc-4.3.5.RELEASE.ja
+ r jsonassert-1.3.0.jar javassist-3.20.0-GA.jar selenium-support-2.53.1.
+ jar spring-hateoas-0.20.0.RELEASE.jar validation-api-1.1.0.Final.jar sp
+ ring-oxm-4.3.5.RELEASE.jar selenium-edge-driver-2.53.1.jar commons-code
+ c-1.10.jar httpcore-4.4.5.jar spring-expression-4.3.5.RELEASE.jar sprin
+ g-tx-4.3.5.RELEASE.jar jchardet-1.0.jar logback-core-1.1.8.jar log4j-ov
+ er-slf4j-1.7.22.jar stax-api-1.0-2.jar hibernate-validator-5.2.4.Final.
+ jar sac-1.3.jar junit-4.12.jar activation-1.1.jar websocket-common-9.3.
+ 14.v20161028.jar commons-lang3-3.5.jar selenium-remote-driver-2.53.1.ja
+ r json-path-2.2.0.jar asm-5.0.3.jar spring-boot-starter-mail-1.4.3.RELE
+ ASE.jar spring-data-keyvalue-1.1.6.RELEASE.jar swagger-annotations-1.5.
+ 3-M1.jar jandex-2.0.0.Final.jar xercesImpl-2.11.0.jar aspectjweaver-1.8
+ .9.jar logback-classic-1.1.8.jar httpmime-4.5.2.jar thymeleaf-spring4-2
+ .1.5.RELEASE.jar springfox-swagger-common-2.0.1.jar tomcat-embed-core-8
+ .5.6.jar spring-core-4.3.5.RELEASE.jar dom4j-1.6.1.jar javax.transactio
+ n-api-1.2.jar spring-jdbc-4.3.5.RELEASE.jar spring-boot-test-1.4.3.RELE
+ ASE.jar jboss-logging-3.3.0.Final.jar spring-orm-4.3.5.RELEASE.jar webs
+ ocket-client-9.3.14.v20161028.jar classmate-1.3.3.jar hibernate-core-5.
+ 0.11.Final.jar unbescape-1.1.0.RELEASE.jar json-20140107.jar springfox-
+ swagger-ui-2.0.1.jar spring-data-commons-1.12.6.RELEASE.jar spring-cont
+ ext-support-4.3.5.RELEASE.jar groovy-2.4.7.jar tomcat-jdbc-8.5.6.jar ja
+ ckson-mapper-asl-1.9.2.jar snakeyaml-1.17.jar springfox-spi-2.0.1.jar s
+ pring-boot-starter-data-redis-1.4.3.RELEASE.jar xml-apis-1.4.01.jar htt
+ pclient-4.5.2.jar jackson-annotations-2.8.5.jar hibernate-entitymanager
+ -5.0.11.Final.jar spring-boot-starter-data-jpa-1.4.3.RELEASE.jar spring
+ -boot-devtools-1.4.3.RELEASE.jar gson-2.7.jar
+

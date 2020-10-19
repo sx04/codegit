@@ -1,0 +1,25 @@
+@import '../../../common/styles/variables.scss';
+
+.manage-temp-details{
+    .temp-list-more{
+        font-size: 14px;
+    }
+    .temp-list-btn{
+        button{
+            margin: 0 10px 0 0;
+        }
+    }
+    .temp-details-back{
+        display: block;
+        margin: 0 0 20px 10px;
+        color: $btn-color;
+        cursor: pointer;
+    }
+
+    .temp-add-pop{
+        .pop-content{
+            height: 400px;
+            margin-top: -200px;
+        }
+    }
+}

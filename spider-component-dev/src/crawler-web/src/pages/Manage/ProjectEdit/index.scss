@@ -1,0 +1,28 @@
+@import '../../../common/styles/variables.scss';
+
+.manage-project-edit{
+   .project-edit-con{
+       padding: 0 20px 10px 20px;
+       .common-info-box{
+           margin: 20px 0 0 0;
+       }
+       .common-ib-con{
+           min-height: 325px;
+       }
+       .ant-form-item{
+           margin: 0 0 15px 0;
+       }
+       .ant-checkbox-wrapper{
+            width: 45%;
+            margin: 0 0 0 20px;
+        }
+       .project-edit-checkbox{
+           .project-ec-name{
+               margin: 0 0 10px 0;
+           }
+           .project-ec-group{
+               margin: 5px 0 0 0;
+           }
+       }
+   }
+}

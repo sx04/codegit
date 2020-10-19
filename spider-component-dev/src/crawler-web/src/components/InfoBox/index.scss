@@ -1,0 +1,26 @@
+@import '../../common/styles/variables.scss';
+
+.common-info-box{
+    height: 100%;
+	background-color: #fff;
+    overflow: hidden;
+    .common-ib-title{
+        height: 40px;
+        padding: 6px 20px 0 20px;
+        background: $spart-color;
+        font-size: 14px;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+        .common-ibt-text{
+            display: inline-block;
+            padding: 5px 0 0 0;
+        }
+    }
+    .common-ib-con{
+        padding: 20px;
+        border: 1px solid $spart-color;
+        border-top: none;
+        border-bottom-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+    }
+}

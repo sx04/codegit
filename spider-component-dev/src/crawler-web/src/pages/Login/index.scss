@@ -1,0 +1,46 @@
+@import '../../common/styles/variables.scss';
+
+.login-wrap{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: $theme-color url(../../common/assets/images/clound.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    .login-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        height: 400px;
+        margin: -200px 0 0 -300px;
+        padding: 20px 100px;
+        .login-c-title{
+            text-align: center;
+            color: $font-color;
+            font-size: 40px;
+        }
+        .login-c-info{
+            margin: 0;
+            color: $font-color;
+        }
+        .login-c-from{
+            .ant-input{
+                height: 45px;
+                border-radius: $border-radius;
+            }
+            .ant-input-affix-wrapper{
+                padding: 0 11px;
+                border-radius: $border-radius;
+                border: none;
+            }
+        }
+        .login-c-btn{
+            width: 100%;
+            height: 50px;
+            margin: 30px 0 0 0;
+            border-radius: $border-radius;
+            font-size: 16px;
+        }
+    }
+}

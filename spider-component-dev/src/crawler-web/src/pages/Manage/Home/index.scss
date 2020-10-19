@@ -1,0 +1,61 @@
+@import '../../../common/styles/variables.scss';
+
+.manage-home{
+    .gutter-row{
+        margin: 0 0 20px 0;
+    }
+    .home-more{
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: normal;
+    }
+    .home-count-legend{
+        position: relative;
+        margin: 0 20px 0 0;
+        z-index: 99;
+        li{
+            padding: 0 5px;
+            margin: 0 5px;
+            float: left;
+            list-style-type: none;
+            cursor: pointer;
+        }
+        .home-cl-select{
+            border-bottom: 1px solid $btn-color;
+        }
+    }
+    .home-ci-ul{
+        width: 100%;
+        height: 100%;
+        padding: 60px 0 0 0;
+        border-right: 1px solid $spart-color;
+        li{
+            padding: 10px 0;
+            list-style-type: none;
+            .home-ciu-name{
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+    
+    .home-ci-search{
+        padding: 70px 0 0 50px;
+        .home-cis-btn{
+            margin: 0 0 0 10px;
+            cursor: pointer;
+        }
+        .home-cis-ul{
+            width: 100%;
+            height: 60%;
+            margin: 20px 0 0 0;
+            padding: 0;
+            li{
+                padding: 10px 0;
+                list-style-type: none;
+                .home-ciu-name{
+                    margin: 0 10px 0 0;
+                }
+            }
+        }
+    }
+}

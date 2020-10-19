@@ -1,0 +1,41 @@
+@import '../../common/styles/variables.scss';
+
+.basic-layout{
+    .basic-layout-header{
+        padding: 0 20px 0 50px;
+        height: 60px;
+        line-height: 60px;
+        color: $font-color;
+        background: $theme-color;
+        .basic-lh-logo{
+            font-size: 32px;
+        }
+        .basic-lhu-exit{
+            margin: 0 0 0 10px;
+            color: $btn-color;
+            cursor: pointer;
+        }
+    }
+    .basic-layout-left{
+        .ant-menu{
+            height: 100%;
+            min-height: 100vh;
+            overflow: auto;
+            .ant-menu-item{
+                margin-top: 0;
+                height: 60px;
+                line-height: 60px;
+                font-size: 16px;
+            }
+        }
+        .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+            background: #fff;
+            color: $theme-color;
+            border-top-left-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+        }
+    }
+    .basic-layout-right{
+        padding: 20px;
+    }
+}

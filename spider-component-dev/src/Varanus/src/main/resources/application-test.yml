@@ -1,0 +1,75 @@
+server:
+  port: 1024
+  cron:  0 0/20 * * * *
+  context-path: /api
+
+varanus:
+  notify:
+    dbname: service_zhiwen_crawler
+    tablename: official_document
+    topic: varanus
+  mail:
+    to: diaofeng@cetcbigdata.com;songminyu@cetcbigdata.com;maxinfan@cetcbigdata.com
+  warning:
+    url: http://localhost:1024/index.html#/Warnings/WarningOverviewList
+  file:
+    attachmentsPath: /cetc/nas/cetcData/attachments/
+    imgsPath: /cetc/nas/cetcData/img/
+    localAttachmentsUrl: /zhiwenDoc/attachments/
+    localImgsUrl: /zhiwenDoc/imgs/
+    contentHtmlPath: /cetc/nas/cetcData/html/
+
+spring:
+  application:
+    name: varanus
+  thymeleaf:
+      cache: false
+      check-template-location: true
+      encoding: UTF-8
+      mode: HTML5
+      prefix: classpath:/templates/
+      suffix: .html
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.178:3306/data_collection_center?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: ZUhibo6hS9RvKnPy!
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  redis:
+      port: 6379
+      timeout: 5000
+      host: localhost
+      lettuce:
+         pool:
+           #最大连接数
+           max-active: 8
+            #最大阻塞等待时间(负数表示没限制)
+           max-wait: -1
+            #最大空闲
+           max-idle: 8
+           #最小空闲
+           min-idle: 0
+      database: 1
+
+  mvc:
+    static-path-pattern: /static/**
+  mail:
+    host: smtp.cetcbigdata.com
+    username: systemcd@cetcbigdata.com
+    password: EjBsgeubH6RCX9xE
+    protocol: smtp
+    default-encoding: utf-8
+
+kafka:
+  topic:
+    group-id: topicGroupId
+    topic-name: topic1
+
+chromeDriver:
+  path: C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe
+
+
+
+swagger:
+  enable: true
